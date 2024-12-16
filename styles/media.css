@@ -1,0 +1,33 @@
+@media(max-width:1140px){
+.main-box{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+}
+@media(max-width:900px){
+    .footer-box{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header-box{
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0 ;
+    }
+    .header-list{
+        flex-wrap: wrap;
+         justify-content: center;
+    }
+}
+@media(max-width:600px){
+.main-item{
+    max-width: none;
+}
+.header_content{
+    height: 400px;
+}
+.header-list-link{
+    padding: 10px;
+}
+}
